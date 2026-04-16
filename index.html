@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator | DecodeLabs</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --light: #ecf0f1;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: var(--light);
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 { border-bottom: 2px solid var(--accent); padding-bottom: 10px; color: var(--primary); }
+        .feature-list { list-style: none; padding: 0; }
+        .feature-list li::before { content: "✅ "; margin-right: 10px; }
+        code {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 1rem;
+            display: block;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer { text-align: center; font-size: 0.9rem; margin-top: 2rem; padding: 1rem; color: #777; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Grade Calculator</h1>
+    <p>A Robust Java CLI Tool for Academic Analytics</p>
+</header>
+
+<div class="container">
+    <h2>🚀 Overview</h2>
+    <p>This project is a high-precision grade calculation system developed in Java. It is designed to handle multiple subjects, validate user inputs, and provide a detailed academic summary including total marks, average percentage, and final grade.</p>
+
+    <h2>✨ Key Features</h2>
+    <ul class="feature-list">
+        <li><strong>Defensive Programming:</strong> Validates marks (0-100) to prevent errors.</li>
+        <li><strong>Buffer Safety:</strong> Uses advanced string parsing to handle Scanner inputs reliably.</li>
+        <li><strong>Precision Math:</strong> Uses type-casting for accurate decimal percentages.</li>
+        <li><strong>Clean UI:</strong> Formatted console output for professional result reporting.</li>
+    </ul>
+
+    <h2>💻 How to Run</h2>
+    <p>Ensure you have Java JDK installed, then run these commands in your terminal:</p>
+    <code>
+        javac StudentGradeCalculator.java <br>
+        java StudentGradeCalculator
+    </code>
+
+    <h2>📂 View Source Code</h2>
+    <p>You can check out the full implementation on GitHub.</p>
+    <a href="https://github.com/icreativez-AishaAli/Student-Grade-Calculator" class="btn">View Repository</a>
+</div>
+
+<footer>
+    <p>Developed with ❤️ by Aisha at DecodeLabs</p>
+</footer>
+
+</body>
+</html>
